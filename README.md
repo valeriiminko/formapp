@@ -1,4 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+First of all run - npm i, npm i node-sass, npm i react-router-dom 
 
 ## Available Scripts
 
