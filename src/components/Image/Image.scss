@@ -1,0 +1,15 @@
+.image-form{
+    height: 450px;
+
+    img{
+        width: 100%;
+        object-fit: contain;
+        height: 75%;
+    }
+
+    .hidden{
+        @extend img;
+        height: 25vh;
+        overflow: hidden;
+    }
+}

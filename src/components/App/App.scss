@@ -1,0 +1,49 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+
+.components{
+
+    &-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+        .card{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 82vh;
+            width: 40%;
+            padding: 4rem 2.5rem;
+            font-size: 2rem;
+
+            a{
+                margin: 0 10px;
+
+                span{
+                    width: 57px;
+                }
+            }
+
+            .form-control{
+                font-size: 1.8rem;
+
+                &.invalid{
+                    border-color: #dc3545;
+                }
+            }
+        }
+    }
+}
