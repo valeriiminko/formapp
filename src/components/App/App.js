@@ -146,7 +146,7 @@ export default class App extends Component {
       <React.Fragment>
       { steps[3].active && Object.values(usersdata).some(x => (x == null || x == '')) ? null:
       (<div className='container components-container'>
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           {loading ? <Loader /> : (
             <div className={loading ? 'd-none': 'card'}>
            
