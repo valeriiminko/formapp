@@ -42,7 +42,7 @@
   "devDependencies": {
     "gh-pages": "^2.2.0"
   },
-  "homepage": "http://valeriiminko.github.io/formapp",
+  "homepage": "https://valeriiminko.github.io/formapp",
   "keywords": [
     "form",
     "application"
